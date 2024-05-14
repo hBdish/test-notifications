@@ -10,7 +10,7 @@ function App() {
       // Регистрация service worker-а, расположенного в корне сайта
       // за счёт использования дефолтного scope (не указывая его)
       navigator.serviceWorker
-        .register("/sw.js")
+        .register("/test-notifications/sw.js")
         .then(function (registration) {
           console.log("Service worker зарегистрирован:", registration);
         })
