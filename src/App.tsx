@@ -4,6 +4,8 @@ import {useEffect} from "react";
 function App() {
 
   useEffect(() => {
+
+
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
         .register("service-worker.js", {
